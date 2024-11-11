@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: black;
+  color: white;
+}
+
+.app {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 38px;
+  margin-bottom: 40px;
+  font-family: "Geist Mono", monospace;
+}
+
+.counter-container {
+  background-color: black;
+  padding: 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.decrement {
+  background-color: #eec82f;
+  color: black;
+}
+.decrement:hover {
+  background-color: #f8c806;
+  color: black;
+}
+
+.reset {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.reset:hover {
+  background-color: #e22b17;
+  color: white;
+}
+
+.increment {
+  background-color: #219b54;
+  color: white;
+}
+
+.increment:hover {
+  background-color: #11803f;
+  color: white;
+}
+
+.increment-by-amount {
+  background-color: #208fda;
+  color: white;
+}
+
+.increment-by-amount:hover {
+  background-color: #0964a0;
+  color: white;
+}
+
+/* .btn:hover {
+  transform: scale(1.1);
+} */
+
+input {
+  padding: 10px;
+  font-size: 18px;
+  margin-right: 10px;
+  width: 480px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+}
+
