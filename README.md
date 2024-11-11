@@ -9,4 +9,7 @@ A basic counter app built with React and Redux to demonstrate simple state manag
 - Input field to increment by a custom amount
 - Minimal design and easy-to-understand state management with Redux
 
+  ![Counter App Screenshot](./counter%20screenshot.jpeg)
+
+
 
